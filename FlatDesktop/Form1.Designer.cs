@@ -51,6 +51,7 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
+            this.fisrtCustomControl1 = new FlatDesktop.FisrtCustomControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -333,11 +334,19 @@
             this.button14.Text = "?";
             this.button14.UseVisualStyleBackColor = true;
             // 
+            // fisrtCustomControl1
+            // 
+            this.fisrtCustomControl1.Location = new System.Drawing.Point(199, 164);
+            this.fisrtCustomControl1.Name = "fisrtCustomControl1";
+            this.fisrtCustomControl1.Size = new System.Drawing.Size(817, 423);
+            this.fisrtCustomControl1.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1036, 606);
+            this.Controls.Add(this.fisrtCustomControl1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
@@ -386,6 +395,7 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private FisrtCustomControl fisrtCustomControl1;
     }
 }
 
